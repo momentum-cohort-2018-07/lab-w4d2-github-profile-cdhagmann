@@ -1,24 +1,23 @@
-# README
+# GitHub Profile Page
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+Recreate your own GitHub profile Repositories page (with real, live data) in a Rails application using data from GitHub's public API.
 
-* Ruby version
+To do this, build a very simple Rails application which consumes information from the [GitHub API](https://developer.github.com/v3/) and presents it from a Rails view. Your home page should look as much like the GitHub profile repositories page as possible. Here is an example link to the repositories page:
 
-* System dependencies
+https://github.com/sarahmei?tab=repositories
 
-* Configuration
+This page has a lot going on, from styling to navigation bars to icons. You will need to prioritize and make decisions about what to implement. As you're selecting sections of the page to work on, keep in mind that the most important part is for the information on the page to be accurate and pulled from the API.
 
-* Database creation
+Your Rails application will not need to have any database tables, since we are not going to persist any data.
 
-* Database initialization
+The search and filter functions and the create a new repository button do not need to be functional.
 
-* How to run the test suite
+When feasible (meaning, don't spend a lot of time making this work perfectly), links on your page should work and go to the real pages on github.com.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Resources
 
-* Deployment instructions
-
-* ...
+- [GitHub API Documentation](https://developer.github.com/v3/)
+- [Octicons](https://octicons.github.com/)
+- [Httparty gem](https://github.com/jnunemaker/httparty)

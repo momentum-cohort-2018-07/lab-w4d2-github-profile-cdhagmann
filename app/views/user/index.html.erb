@@ -1,0 +1,11 @@
+<aside>
+<%= image_tag(@user.parsed_response['avatar_url'], size: "300") %>
+
+<h1><%= @user.parsed_response['name'] %> (<%= @user.parsed_response['login'] %>) </h1>
+</aside>
+<div class='repos'>
+
+<% @repos.each do |repo|%>
+<a href=<%= repo['html_url'] %>> <div class='repo'><p><%= repo['name'] %></p><p><%= repo['language'] %></p></div></aside>
+<% end %>
+<div>
