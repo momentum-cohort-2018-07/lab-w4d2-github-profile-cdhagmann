@@ -24,12 +24,17 @@ body {
 
 .repo {
   display: flex;
-  height: 75px;
+  height: 100px;
   justify-content: space-between;
   flex-direction: row;
+  flex-flow: wrap;
   width: 500px;
-  padding: 10px;
-  margin: 10px;
+  padding: 0 10px;
+  margin: 0 10px;
   border-bottom: 1px #333333 solid;
   color: #333333
+}
+
+.repo p {
+  width: 50%;
 }
